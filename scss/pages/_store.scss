@@ -1,5 +1,5 @@
 .store-banner {
-  background: 50%/cover no-repeat url(../../images/qa.png);
+  background: 50%/cover no-repeat url(../images/qa.png);
   section {
     position: relative;
     height: 143px;
@@ -37,6 +37,7 @@ select {
 .store {
   .card-img-top {
     height: 164px;
+    object-fit: cover;
     @media (min-width:992px) {
       height: 224px;
     }
