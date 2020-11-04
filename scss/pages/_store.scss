@@ -1,0 +1,75 @@
+.store-banner {
+  background: 50%/cover no-repeat url(../../images/qa.png);
+  section {
+    position: relative;
+    height: 143px;
+    @media (min-width:768px) {
+      height: 304px;
+    }
+  }
+  h1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 12px;
+  }
+  img {
+    width: 16px;
+    @media (min-width:768px) {
+      width: 30px;
+    }
+    @media (min-width:992px) {
+      width: auto;
+    }
+  }
+}
+select {
+  max-width: 277px;
+  @media (min-width:768px) {
+    max-width: 234px;
+  }
+  @media (min-width:992px) {
+    max-width: 324px;
+    height: 45px !important;
+  }
+}
+
+.store {
+  .card-img-top {
+    height: 164px;
+    @media (min-width:992px) {
+      height: 224px;
+    }
+  }
+  .card-body img {
+    width: 22px;
+    height: 22px;
+  }
+  .btn:hover {
+    background: #AA0601;
+    transition: all .3s;
+  }
+}
+//google map @ store-flagship
+.iframe-rwd {
+    position: relative;
+    height: 227px;
+    overflow: hidden;
+  @media (min-width:768px) {
+    height: 465px;
+  }
+  @media (min-width:992px) {
+    height: 422px;
+    margin-bottom: 300px !important;
+  }
+}
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}

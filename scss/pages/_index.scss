@@ -1,0 +1,64 @@
+header, header .row {
+  background: center/cover no-repeat url(../../images/banner-sm.png);
+  height: 394px;
+  @media (min-width: 576px){
+    height: 840px;
+  }
+  @media (min-width: 768px) {
+    background: center/cover no-repeat url(../../images/banner.png);
+    height: 840px;
+  }
+}
+
+
+
+.classicLink {
+  @media (max-width: 767px) {
+    position: absolute;
+    //top: 35%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    @media (max-width: 767px) {
+      width: 32px;
+      color: white;
+    }
+  }
+  i {
+    @media (max-width: 767px) {
+      color: white;
+      &:hover {
+        color: #650300;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.classic li:hover {
+  img[class*="col-"] {
+    @media (max-width: 767px) {
+      filter: contrast(150%) brightness(60%);
+    }
+  }
+}
+
+.corporation-link {
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(#ffffff, .5);
+  &:hover {
+    color: white !important;
+    background: none;
+    transition: all .3s;
+  }
+}

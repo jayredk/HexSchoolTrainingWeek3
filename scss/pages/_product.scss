@@ -1,0 +1,107 @@
+.product-nav {
+  @media (min-width:992px) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+.product-nav li {
+  max-width: 33.33333%;
+  @media (min-width:320px) {
+    height: 35px;
+  }
+  @media (min-width:576px) {
+    height: 70px;
+  }
+  @media (min-width:992px) {
+    height: 100px;
+  }
+}
+.product-nav a {
+  @media (min-width:320px) {
+    height: 35px;
+    border-bottom: 4px solid transparent !important;
+  }
+  @media (min-width:576px) {
+    height: 70px;
+    border-bottom: 8px solid transparent !important;
+  }
+  @media (min-width:992px) {
+    height: 100px;
+    border-bottom: 16px solid transparent !important;
+  }
+}
+.product-nav a:hover {
+  @media (min-width:320px) {
+    border-bottom: 4px solid #AA0601 !important;
+  }
+  @media (min-width:576px) {
+    border-bottom: 8px solid #AA0601 !important;
+  }
+  @media (min-width:992px) {
+    border-bottom: 16px solid #AA0601 !important;
+  }
+}
+.product-nav .active {
+  @media (min-width:320px) {
+    border-bottom: 4px solid #AA0601 !important;
+  }
+  @media (min-width:576px) {
+    border-bottom: 8px solid #AA0601 !important;
+  }
+  @media (min-width:992px) {
+    border-bottom: 16px solid #AA0601 !important;
+  }
+}
+
+.product-nav img {
+  max-width: 12px;
+  @media (min-width:375px) {
+    max-width: 16px;
+  }
+  @media (min-width:576px) {
+    max-width: 24px;
+  }
+  @media (min-width:768px) {
+    max-width: 100%;
+  }
+}
+
+.banner{
+  max-width: 100%;
+  height: 144px;
+  @media (min-width:768px) {
+    height: 309px;
+  }
+}
+.banner img {
+  max-width: 50%;
+  object-position: 50%;
+  object-fit: cover;
+}
+.op-list .img-fluid {
+  width: 100%;
+  max-height: 164px;
+  object-fit: cover;
+}
+.op-list a, .sun-list a {
+  width: 24px;
+  height: 24px;
+  background: #5F3E2D;
+  &:last-child {
+    background: #B75929;
+  }
+}
+.op-list img:hover, .sun-list img:hover {
+
+  transition: all .3s;
+}
+
+.pagination a:hover {
+  color: white !important;
+  background: #000 !important;
+  transition: all .3s;
+}
+
+.sun-list {
+  padding-bottom: 200px;
+}

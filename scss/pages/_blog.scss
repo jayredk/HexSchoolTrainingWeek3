@@ -1,0 +1,10 @@
+.blog-nav ul {
+  width: 100%;
+  @media (min-width:768px) {
+    width: auto;
+  }
+}
+
+.blog a.d-lg-block {
+  width: 100px;
+}

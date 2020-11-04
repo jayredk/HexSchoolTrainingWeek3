@@ -1,0 +1,25 @@
+.navbar > button {
+  position: absolute;
+  left: 10px;
+}
+// header, copyright logo width
+.navbar a > img, .copyright img {
+  width: 80px;
+}
+
+
+// icon hover
+i:hover {
+  opacity: 0.75;
+  transition: all .3s;
+}
+
+.sns_link {
+  width: 120px;
+  @media (min-width:576px) {
+    width: 140px;
+  }
+  @media (min-width:768px) {
+    width: 160px;
+  }
+}
