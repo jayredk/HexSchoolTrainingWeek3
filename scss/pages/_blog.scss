@@ -5,6 +5,11 @@
   }
 }
 
-.blog a.d-lg-block {
-  width: 100px;
+.blog {
+  img {
+    object-fit: cover;
+  }
+  a.d-lg-block {
+    width: 100px;
+  }
 }
