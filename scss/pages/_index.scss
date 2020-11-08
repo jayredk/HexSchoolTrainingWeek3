@@ -1,19 +1,23 @@
-//高度一樣，但換圖片不想分開寫，就寫一起
-header, header .row {
-  background: center/cover no-repeat url(../images/banner-sm.png);
+header {
+  background: left/cover no-repeat url(../images/banner-sm.png);
   height: 394px;
   @media (min-width: 576px){
     height: 840px;
   }
   @media (min-width: 768px) {
-    background: center/cover no-repeat url(../images/banner.png);
-    height: 840px;
+    background: 30%/cover no-repeat url(../images/banner.png);
+  }
+  .row {
+    height: 394px;
+    @media (min-width: 576px){
+      height: 840px;
+    }
   }
 }
 
 
 
-.classicLink {
+.classic_link {
   @media (max-width: 767px) {
     position: absolute;
     top: 0;
