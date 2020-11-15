@@ -53,6 +53,10 @@ header {
   }
 }
 
+.corporation {
+  background: center/cover no-repeat url(../images/bg.png);
+}
+
 .corporation-link {
   position: absolute;
   top:0;
@@ -65,4 +69,8 @@ header {
     background: none;
     transition: all .3s;
   }
+}
+
+textarea {
+  resize: none;
 }
